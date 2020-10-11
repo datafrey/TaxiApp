@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=69:3E:BF:E9:38:E2:9C:A1:08:47:D3:57:EE:64:EF:C0:B3:87:64:F8%3Bcom.datafrey.taxiapp.drivermaps
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.datafrey.taxiapp.drivermaps
+
+    SHA-1 certificate fingerprint:
+    69:3E:BF:E9:38:E2:9C:A1:08:47:D3:57:EE:64:EF:C0:B3:87:64:F8
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCR8thSiIOcFKMUi0qPJVY7lU1UgH-ldZE</string>
+</resources>

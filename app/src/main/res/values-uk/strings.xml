@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="book_taxi_button_default_text">Замовити таксі</string>
+    <string name="cancel_close_order_button_cancel_text">Скасувати</string>
+    <string name="book_taxi_button_getting_taxi_text">Підбираємо Вам таксі...</string>
+    <string name="cancel_close_order_button_close_order_text">Закрити замовлення</string>
+    <string name="book_taxi_button_distance_to_driver_text">Приблизна відстань до водія: %d м</string>
+    <string name="no_drivers_found_message">Не знайдено водіїв в радіусі 5 км.</string>
+    <string name="driver_refused_the_order_message">Водій відхилив замовлення.</string>
+    <string name="self_marker_title">Ви знаходитесь тут</string>
+    <string name="driver_marker_title">Ваш водій (%s) знаходиться тут</string>
+    <string name="end_of_order_execution_message">Кінець виконання замовлення.</string>
+    <string name="driver_notification_channel_name">Повідомлення для водія про появу клієнта</string>
+    <string name="passenger_marker_title">Ваш пасажир (%s) знаходиться тут</string>
+    <string name="location_permission_is_needed_message">Дозвіл на використання геоданих необхідний для функціонування додатку</string>
+    <string name="turn_on_location_on_settings_message">Увімкніть геолокацію у налаштуваннях</string>
+    <string name="settings_message_action">Налаштування</string>
+    <string name="refuse_order_button_text">Відхилити замовлення</string>
+    <string name="empty_email_field_error_message">Поле для введення адреси електронної пошти не заповнено!</string>
+    <string name="empty_password_field_error_message">Поле для введення пароля не заповнено!</string>
+    <string name="too_short_password_error_message">Пароль повинен складатися як мінімум з 7 символів!</string>
+    <string name="empty_confirm_password_field_error_message">Поле підтвердження пароля не заповнено!</string>
+    <string name="passwords_dont_match_error_message">Паролі не співпадають!</string>
+    <string name="empty_name_field_error_message">Поле для введення імені не заповнене!</string>
+    <string name="too_long_name_error_message">Ім\'я повинно бути коротше 15 символів!</string>
+    <string name="sign_in_mode_button_text">Увійти</string>
+    <string name="sign_up_mode_button_text">Зареєструватися</string>
+    <string name="switch_to_sign_up_mode_button_text">Реєстрація</string>
+    <string name="switch_to_sign_in_mode_button_text">Вхід</string>
+    <string name="authorization_title">Авторизація</string>
+    <string name="email_field_hint">Пошта</string>
+    <string name="password_field_hint">Пароль</string>
+    <string name="confirm_password_field_hint">Підтвердіть пароль</string>
+    <string name="name_field_hint">Ім\'я</string>
+    <string name="who_are_you_title">Хто Ви?</string>
+    <string name="select_mode_description">Виберіть режим, в якому ви хочете використовувати додаток</string>
+    <string name="passenger_button_text">Я пасажир</string>
+    <string name="driver_button_text">Я водій</string>
+    <string name="sign_out_button_text">Вихід</string>
+    <string name="customer_appeared_notification_title">У вас з\'явився клієнт!</string>
+    <string name="customer_appeared_notification_text">Покваптеся виконати замовлення!</string>
+</resources>

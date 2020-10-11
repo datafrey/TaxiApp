@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name" translatable="false">TaxiApp</string>
+    <string name="title_activity_driver_maps" translatable="false">Map</string>
+    <string name="title_activity_passenger_maps" translatable="false">Map</string>
+    <string name="driver_notification_channel_id" translatable="false">taxiapp_driver_channel</string>
+    <string name="book_taxi_button_default_text">Book taxi</string>
+    <string name="cancel_close_order_button_cancel_text">Cancel</string>
+    <string name="book_taxi_button_getting_taxi_text">Getting your taxi...</string>
+    <string name="cancel_close_order_button_close_order_text">Close order</string>
+    <string name="book_taxi_button_distance_to_driver_text">"Approximate distance to driver: %d m"</string>
+    <string name="no_drivers_found_message">No drivers found within a radius of 5 km.</string>
+    <string name="driver_refused_the_order_message">The driver refused the order.</string>
+    <string name="self_marker_title">Your are here</string>
+    <string name="driver_marker_title">Your driver (%s) is here</string>
+    <string name="end_of_order_execution_message">End of order execution.</string>
+    <string name="driver_notification_channel_name">Customer appeared notification for driver</string>
+    <string name="passenger_marker_title">Your passenger (%s) is here</string>
+    <string name="driver_notification_channel_description" translatable="false">Channel for driver notifications</string>
+    <string name="location_permission_is_needed_message">Location permission is needed for app functionality</string>
+    <string name="turn_on_location_on_settings_message">Turn on location on settings</string>
+    <string name="settings_message_action">Settings</string>
+    <string name="refuse_order_button_text">Refuse order</string>
+    <string name="empty_error_message" translatable="false" />
+    <string name="empty_email_field_error_message">Email field is empty!</string>
+    <string name="empty_password_field_error_message">Password field is empty!</string>
+    <string name="too_short_password_error_message">Password must be at least 7 characters!</string>
+    <string name="empty_confirm_password_field_error_message">Confirm password field is empty!</string>
+    <string name="passwords_dont_match_error_message">Passwords don\'t match!</string>
+    <string name="empty_name_field_error_message">Name field is empty!</string>
+    <string name="too_long_name_error_message">Name must have a maximum of 15 characters!</string>
+    <string name="sign_in_mode_button_text">Sign In</string>
+    <string name="sign_up_mode_button_text">Sign Up</string>
+    <string name="switch_to_sign_up_mode_button_text">Tap to Sign Up</string>
+    <string name="switch_to_sign_in_mode_button_text">Tap to Sign In</string>
+    <string name="authorization_title">Authorization</string>
+    <string name="email_field_hint">Email</string>
+    <string name="password_field_hint">Password</string>
+    <string name="confirm_password_field_hint">Confirm Password</string>
+    <string name="name_field_hint">Name</string>
+    <string name="who_are_you_title">Who are you?</string>
+    <string name="select_mode_description">Select the mode in which you want to use the application</string>
+    <string name="passenger_button_text">I\'m a passenger</string>
+    <string name="driver_button_text">I\'m a driver</string>
+    <string name="sign_out_button_text">Sign Out</string>
+    <string name="customer_appeared_notification_title">You have a new customer!</string>
+    <string name="customer_appeared_notification_text">Hurry up to complete your order!</string>
+</resources>

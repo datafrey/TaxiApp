@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_status_navigation"
+    app:startDestination="@id/chooseModeFragment">
+
+    <fragment
+        android:id="@+id/chooseModeFragment"
+        android:name="com.datafrey.taxiapp.userstatus.ChooseModeFragment"
+        android:label="fragment_choose_mode"
+        tools:layout="@layout/fragment_choose_mode">
+        <action
+            android:id="@+id/action_chooseModeFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@id/user_status_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.datafrey.taxiapp.userstatus.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_chooseModeFragment"
+            app:destination="@id/chooseModeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpTo="@id/user_status_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

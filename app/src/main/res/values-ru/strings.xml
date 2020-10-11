@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="book_taxi_button_default_text">Заказать такси</string>
+    <string name="cancel_close_order_button_cancel_text">Отмена</string>
+    <string name="book_taxi_button_getting_taxi_text">Подбираем Вам такси...</string>
+    <string name="cancel_close_order_button_close_order_text">Закрыть заказ</string>
+    <string name="book_taxi_button_distance_to_driver_text">Примерное расстояние до водителя: %d м</string>
+    <string name="no_drivers_found_message">Не найдено водителей в радиусе 5 км.</string>
+    <string name="driver_refused_the_order_message">Водитель отклонил заказ.</string>
+    <string name="self_marker_title">Вы находитесь здесь</string>
+    <string name="driver_marker_title">Ваш водитель (%s) находится здесь</string>
+    <string name="end_of_order_execution_message">Конец выполнения заказа.</string>
+    <string name="driver_notification_channel_name">Уведомление для водителя о появлении клиента</string>
+    <string name="passenger_marker_title">Ваш пассажир (%s) находится здесь</string>
+    <string name="location_permission_is_needed_message">Разрешение на использование геоданных необходимо для функционирования приложения</string>
+    <string name="turn_on_location_on_settings_message">Включите геолокацию в настройках</string>
+    <string name="settings_message_action">Настройки</string>
+    <string name="refuse_order_button_text">Отклонить заказ</string>
+    <string name="empty_email_field_error_message">Поле для ввода адреса электронной почты не заполнено!</string>
+    <string name="empty_password_field_error_message">Поле для ввода пароля не заполнено!</string>
+    <string name="too_short_password_error_message">Пароль должен состоять как минимум из 7 символов!</string>
+    <string name="empty_confirm_password_field_error_message">Поле подтверждения пароля не заполнено!</string>
+    <string name="passwords_dont_match_error_message">Пароли не совпадают!</string>
+    <string name="empty_name_field_error_message">Поле для ввода имени не заполнено!</string>
+    <string name="too_long_name_error_message">Имя не должно быть длиннее 15 символов!</string>
+    <string name="sign_in_mode_button_text">Войти</string>
+    <string name="sign_up_mode_button_text">Зарегистрироваться</string>
+    <string name="switch_to_sign_up_mode_button_text">Регистрация</string>
+    <string name="switch_to_sign_in_mode_button_text">Вход</string>
+    <string name="authorization_title">Авторизация</string>
+    <string name="email_field_hint">Почта</string>
+    <string name="password_field_hint">Пароль</string>
+    <string name="confirm_password_field_hint">Подтвердите пароль</string>
+    <string name="name_field_hint">Имя</string>
+    <string name="who_are_you_title">Кто Вы?</string>
+    <string name="select_mode_description">Выберите режим, в котором вы хотите использовать приложение</string>
+    <string name="passenger_button_text">Я пассажир</string>
+    <string name="driver_button_text">Я водитель</string>
+    <string name="sign_out_button_text">Выход</string>
+    <string name="customer_appeared_notification_title">У вас появился клиент!</string>
+    <string name="customer_appeared_notification_text">Поторопитесь выполнить заказ!</string>
+</resources>
