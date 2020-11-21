@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.util
+package com.datafrey.taxiapp.adapters
 
 import androidx.databinding.BindingAdapter
 import com.google.android.material.textfield.TextInputLayout

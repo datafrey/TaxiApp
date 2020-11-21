@@ -6,8 +6,9 @@ import android.content.Context
 import android.content.Intent
 import android.media.RingtoneManager
 import androidx.core.app.NotificationCompat
+import com.datafrey.taxiapp.ApplicationConstants
 import com.datafrey.taxiapp.R
-import com.datafrey.taxiapp.drivermaps.DriverMapsActivity
+import com.datafrey.taxiapp.activities.DriverMapsActivity
 
 fun NotificationManager.sendCustomerAppearedNotification(applicationContext: Context) {
     val contentIntent = Intent(applicationContext, DriverMapsActivity::class.java)

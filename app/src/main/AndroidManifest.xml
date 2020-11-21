@@ -32,15 +32,15 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".passengermaps.PassengerMapsActivity"
+            android:name=".activities.PassengerMapsActivity"
             android:label="@string/title_activity_passenger_maps"
             android:launchMode="singleTop" />
         <activity
-            android:name=".drivermaps.DriverMapsActivity"
+            android:name=".activities.DriverMapsActivity"
             android:label="@string/title_activity_driver_maps"
             android:launchMode="singleTop" />
-        <activity android:name=".userstatus.UserStatusActivity" />
-        <activity android:name=".splashscreen.SplashActivity">
+        <activity android:name=".activities.UserStatusActivity" />
+        <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

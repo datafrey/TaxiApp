@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.drivermaps
+package com.datafrey.taxiapp.activities
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -9,10 +9,11 @@ import android.os.Bundle
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import com.datafrey.taxiapp.R
-import com.datafrey.taxiapp.currentuserlocationreceiving.LocationPermissionAskerActivity
 import com.datafrey.taxiapp.databinding.ActivityDriverMapsBinding
 import com.datafrey.taxiapp.util.cancelNotifications
 import com.datafrey.taxiapp.util.toast
+import com.datafrey.taxiapp.viewmodelfactories.DriverMapsViewModelFactory
+import com.datafrey.taxiapp.viewmodels.DriverMapsViewModel
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -167,5 +168,4 @@ class DriverMapsActivity : LocationPermissionAskerActivity(), OnMapReadyCallback
         ) as NotificationManager
         notificationManager.cancelNotifications()
     }
-
 }

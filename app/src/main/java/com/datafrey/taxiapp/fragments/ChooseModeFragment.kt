@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.userstatus
+package com.datafrey.taxiapp.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.datafrey.taxiapp.R
-import com.datafrey.taxiapp.drivermaps.DriverMapsActivity
-import com.datafrey.taxiapp.passengermaps.PassengerMapsActivity
+import com.datafrey.taxiapp.activities.DriverMapsActivity
+import com.datafrey.taxiapp.activities.PassengerMapsActivity
 import com.datafrey.taxiapp.util.startActivity
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.fragment_choose_mode.view.*
@@ -37,5 +37,4 @@ class ChooseModeFragment : Fragment() {
 
         return root
     }
-
 }

@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.userinputvalidation
+package com.datafrey.taxiapp.util.userinputvalidation
 
 class InputIsNotEqualToStringMiddleware(
     private val mustBeEqualTo: String
@@ -11,5 +11,4 @@ class InputIsNotEqualToStringMiddleware(
 
         return checkNext(input)
     }
-
 }

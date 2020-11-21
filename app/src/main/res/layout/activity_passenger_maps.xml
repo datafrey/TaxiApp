@@ -6,13 +6,13 @@
     <data>
         <variable
             name="viewModel"
-            type="com.datafrey.taxiapp.passengermaps.PassengerMapsViewModel" />
+            type="com.datafrey.taxiapp.viewmodels.PassengerMapsViewModel" />
     </data>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".passengermaps.PassengerMapsActivity">
+        tools:context=".activities.PassengerMapsActivity">
 
         <fragment
             android:id="@+id/map"

@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.currentuserlocationreceiving
+package com.datafrey.taxiapp.viewmodels
 
 import android.Manifest
 import android.app.Application
@@ -8,7 +8,7 @@ import android.os.Looper
 import androidx.core.app.ActivityCompat
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import com.datafrey.taxiapp.util.ApplicationConstants
+import com.datafrey.taxiapp.ApplicationConstants
 import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.*
@@ -105,5 +105,4 @@ abstract class CurrentUserLocationReceiverViewModel(application: Application)
         super.onCleared()
         stopCurrentUserLocationUpdates()
     }
-
 }

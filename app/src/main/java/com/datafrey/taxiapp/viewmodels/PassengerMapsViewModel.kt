@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.passengermaps
+package com.datafrey.taxiapp.viewmodels
 
 import android.app.Application
 import android.location.Location
@@ -6,7 +6,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import com.datafrey.taxiapp.R
-import com.datafrey.taxiapp.currentuserlocationreceiving.CurrentUserLocationReceiverViewModel
 import com.datafrey.taxiapp.model.DatabaseNodeNames
 import com.datafrey.taxiapp.model.Order
 import com.datafrey.taxiapp.model.User
@@ -333,5 +332,4 @@ class PassengerMapsViewModel(application: Application) :
         closeOrderIfStarted()
         cleanSelfGeoData()
     }
-
 }

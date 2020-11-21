@@ -1,9 +1,8 @@
-package com.datafrey.taxiapp.splashscreen
+package com.datafrey.taxiapp.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.datafrey.taxiapp.R
-import com.datafrey.taxiapp.userstatus.UserStatusActivity
 import com.datafrey.taxiapp.util.startActivity
 import com.google.firebase.auth.FirebaseAuth
 
@@ -20,5 +19,4 @@ class SplashActivity : AppCompatActivity() {
 
         finish()
     }
-
 }

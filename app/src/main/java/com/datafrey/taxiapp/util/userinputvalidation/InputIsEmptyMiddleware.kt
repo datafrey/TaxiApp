@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.userinputvalidation
+package com.datafrey.taxiapp.util.userinputvalidation
 
 class InputIsEmptyMiddleware : InputValidatorMiddleware() {
 
@@ -9,5 +9,4 @@ class InputIsEmptyMiddleware : InputValidatorMiddleware() {
 
         return checkNext(input)
     }
-
 }

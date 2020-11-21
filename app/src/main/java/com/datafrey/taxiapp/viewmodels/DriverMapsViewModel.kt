@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.drivermaps
+package com.datafrey.taxiapp.viewmodels
 
 import android.app.Application
 import android.app.NotificationManager
@@ -11,7 +11,6 @@ import android.os.Vibrator
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.datafrey.taxiapp.currentuserlocationreceiving.CurrentUserLocationReceiverViewModel
 import com.datafrey.taxiapp.model.DatabaseNodeNames
 import com.datafrey.taxiapp.model.Order
 import com.datafrey.taxiapp.model.User
@@ -258,5 +257,4 @@ class DriverMapsViewModel(application: Application) :
         closeOrderIfStarted()
         cleanSelfGeoData()
     }
-
 }

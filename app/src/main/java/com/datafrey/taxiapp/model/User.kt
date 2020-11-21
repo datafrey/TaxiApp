@@ -16,5 +16,4 @@ data class User(
             "participatesInOrderNow" to participatesInOrderNow
         )
     }
-
 }

@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.userstatus
+package com.datafrey.taxiapp.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,6 +11,8 @@ import com.datafrey.taxiapp.R
 import com.datafrey.taxiapp.databinding.FragmentSignInBinding
 import com.datafrey.taxiapp.util.data
 import com.datafrey.taxiapp.util.toast
+import com.datafrey.taxiapp.viewmodelfactories.SignInViewModelFactory
+import com.datafrey.taxiapp.viewmodels.SignInViewModel
 import kotlinx.android.synthetic.main.fragment_sign_in.*
 import kotlinx.android.synthetic.main.fragment_sign_in.view.*
 
@@ -65,5 +67,4 @@ class SignInFragment : Fragment() {
         val name = textInputName.editText!!.data
         viewModel.authorize(email, password, confirmPassword, name)
     }
-
 }

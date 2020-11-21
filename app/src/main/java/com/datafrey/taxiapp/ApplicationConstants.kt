@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.util
+package com.datafrey.taxiapp
 
 object ApplicationConstants {
     const val CHECK_SETTINGS_CODE = 111

@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.userstatus
+package com.datafrey.taxiapp.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -26,5 +26,4 @@ class UserStatusActivity : AppCompatActivity() {
             navHostFragment.navController.graph = graph
         }
     }
-
 }

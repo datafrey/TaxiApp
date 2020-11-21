@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.userinputvalidation
+package com.datafrey.taxiapp.util.userinputvalidation
 
 enum class InputValidationResult {
     OK,

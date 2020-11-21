@@ -6,13 +6,13 @@
     <data>
         <variable
             name="viewModel"
-            type="com.datafrey.taxiapp.userstatus.SignInViewModel" />
+            type="com.datafrey.taxiapp.viewmodels.SignInViewModel" />
     </data>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".userstatus.SignInFragment">
+        tools:context=".fragments.SignInFragment">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/signInCard"

@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.userstatus
+package com.datafrey.taxiapp.viewmodels
 
 import android.app.Application
 import android.view.View
@@ -9,8 +9,8 @@ import androidx.lifecycle.Transformations
 import com.datafrey.taxiapp.R
 import com.datafrey.taxiapp.model.DatabaseNodeNames
 import com.datafrey.taxiapp.model.User
-import com.datafrey.taxiapp.userinputvalidation.*
 import com.datafrey.taxiapp.util.stringResourceToString
+import com.datafrey.taxiapp.util.userinputvalidation.*
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 
@@ -205,5 +205,4 @@ class SignInViewModel(application: Application) : AndroidViewModel(application) 
                 confirmPasswordInputValidationResult == InputValidationResult.OK &&
                 nameInputValidationResult == InputValidationResult.OK
     }
-
 }

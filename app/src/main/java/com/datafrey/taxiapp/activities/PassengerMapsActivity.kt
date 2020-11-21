@@ -1,12 +1,13 @@
-package com.datafrey.taxiapp.passengermaps
+package com.datafrey.taxiapp.activities
 
 import android.location.Location
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.datafrey.taxiapp.R
-import com.datafrey.taxiapp.currentuserlocationreceiving.LocationPermissionAskerActivity
 import com.datafrey.taxiapp.databinding.ActivityPassengerMapsBinding
 import com.datafrey.taxiapp.util.toast
+import com.datafrey.taxiapp.viewmodelfactories.PassengerMapsViewModelFactory
+import com.datafrey.taxiapp.viewmodels.PassengerMapsViewModel
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -123,5 +124,4 @@ class PassengerMapsActivity : LocationPermissionAskerActivity(), OnMapReadyCallb
             }
         }
     }
-
 }

@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.currentuserlocationreceiving
+package com.datafrey.taxiapp.activities
 
 import android.Manifest
 import android.app.Activity
@@ -10,8 +10,9 @@ import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import com.datafrey.taxiapp.ApplicationConstants
 import com.datafrey.taxiapp.R
-import com.datafrey.taxiapp.util.ApplicationConstants
+import com.datafrey.taxiapp.viewmodels.CurrentUserLocationReceiverViewModel
 import com.google.android.material.snackbar.Snackbar
 
 open class LocationPermissionAskerActivity : AppCompatActivity() {
@@ -113,5 +114,4 @@ open class LocationPermissionAskerActivity : AppCompatActivity() {
             }
         }
     }
-
 }

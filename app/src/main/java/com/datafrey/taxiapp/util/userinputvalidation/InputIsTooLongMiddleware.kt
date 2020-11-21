@@ -1,4 +1,4 @@
-package com.datafrey.taxiapp.userinputvalidation
+package com.datafrey.taxiapp.util.userinputvalidation
 
 class InputIsTooLongMiddleware(
     private val maximumLength: Int
@@ -11,5 +11,4 @@ class InputIsTooLongMiddleware(
 
         return checkNext(input)
     }
-
 }
