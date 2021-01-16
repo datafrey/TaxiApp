@@ -1,6 +1,6 @@
 # TaxiApp
 
-A simple application for interaction of users who want to order a taxi and users who want to serve them. Made using Firebase services and Kotlin. Libraries used:
+A simple android application for interaction of users who want to order a taxi and users who want to serve them. Made using Firebase services and Kotlin. Libraries used:
 
 - Material Components
 - AndroidX Lifecycle
